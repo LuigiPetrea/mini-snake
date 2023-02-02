@@ -1,0 +1,48 @@
+body 
+{
+    min-width: 300px;
+    max-width: 400px;
+    min-height: 300px;
+    max-height: 400px;
+}
+
+.container{
+    text-align: center;
+    width: 500px;
+    height: 500px;
+}
+.snake{
+    width: 150px;
+    height: 150px;
+    background: black;
+    border: 1px solid black;
+}
+#game-over{
+    display: none;
+    min-width: 300px;
+    max-width: 400px;
+    min-height: 200px;
+    max-height: 400px;
+    transform: translate(15%, 10%);
+    transition: .5s ease-in-out;
+    color: red;
+    position: absolute;
+    background: rgb(0, 0, 0, .5);
+}
+#game-over:hover{
+    color: white;
+    border-radius: 10px;
+}
+#remach{
+    transition: .5s ease-in-out;
+    margin-top: 30px;
+    border: none;
+    color: white;
+    background: red;
+    padding: 10px;
+    border-radius: 10px;
+}
+#remach:hover{
+    background: white;
+    color: red;
+}
